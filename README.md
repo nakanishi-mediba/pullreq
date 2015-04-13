@@ -184,10 +184,10 @@ tokuten-aws
 [vagrant]$ mysql -u root resource < /vagrant/coupy/doc/ddl/rdb.resource.ddl
 ```
 4. データを投入
-``
+```
 [vagrant]$ mysql -u root resource < /vagrant/coupy/doc/dml/rdb.resource.dml
-``
+```
 5. スキーマキャッシュをクリア
-``
+```
 [vagrant]$ sudo service httpd restart
-``
+```

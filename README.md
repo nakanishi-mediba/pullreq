@@ -193,6 +193,6 @@ tokuten-aws
 ```
 
 <dl>
-<dt><li></li>abc</dt>
+<dt><li>abc</li></dt>
 <dd>ABC</dd>
 </dl>

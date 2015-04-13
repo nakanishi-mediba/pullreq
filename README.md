@@ -32,7 +32,7 @@ tokuten-aws
     * `` [local]$ eval "$(rbenv init -)"  ``
     * `` [local]$ echo 'eval "$(rbenv init -)"' >> ~/.zshrc ``
 
-    ** bashの場合は `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+       * bashの場合は `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 
     * `` [local]$ rbenv install 1.9.3-p545 ``
     * `` [local]$ rbenv global 1.9.3-p545 ``

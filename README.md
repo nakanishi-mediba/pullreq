@@ -63,7 +63,7 @@ tokuten-aws
     * `` [local]$ git submodule init ``
     * `` [local]$ git submodule update ``
 
-3. 各サブモジュールを最新の状態にする
+3. 各サブモジュールを最新の状態にする
     * `` [local]$ cd /path/to/tokuten-aws/kittyhawk ``
     * `` [local]$ git checkout master ``
     * `` [local]$ cd /path/to/tokuten-aws/coupy ``

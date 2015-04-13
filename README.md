@@ -20,7 +20,7 @@ tokuten-aws
 * Vagrantをインストールする。（仮装マシンに開発環境を構築するもの）
     * <http://www.vagrantup.com/downloads.html>
 * HomeBrewをインストールする。（ソフトウェアの導入を単純化するもの）
-    * `` [local]$ `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ` ``
+    * [local]$ `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" `
 * ターミナルで以下のコマンドを実行する。
     * `` [local]$ brew install git ``
 * rbenv導入

@@ -1,4 +1,4 @@
-# pullreq
+# 【表示確認】
 
 tokuten-aws
 ====
@@ -53,7 +53,7 @@ tokuten-aws
 
 1. tokuten-awsをcloneする。（Git リポジトリのコピーを取得すること）  
 （/path/toは任意のフォルダを指しています。各々でパスを読み替えて下さい。）
-    * `` [local]$ mkdir -p /path/to ``
+    * `` [local]$ mkdir -p */path/to* ``
     * `` [local]$ cd /path/to ``
     * `` [local]$ ssh-add ~/.ssh/id_rsa ``
     * `` [local]$ git clone git@github.com:mediba-system/tokuten-aws.git ``

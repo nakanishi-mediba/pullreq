@@ -192,7 +192,4 @@ tokuten-aws
 [vagrant]$ sudo service httpd restart
 ```
 
-<dl>
-<dt><li>abc</li></dt>
-<dd>ABC</dd>
-</dl>
+|abc|ABC|

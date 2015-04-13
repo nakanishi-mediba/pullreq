@@ -22,6 +22,7 @@ tokuten-aws
 * HomeBrewをインストールする。（ソフトウェアの導入を単純化するもの）
 
 |[local]$ |``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ``|
+|:--|:--|
 
 * ターミナルで以下のコマンドを実行する。
     * `` [local]$ brew install git ``

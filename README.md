@@ -170,24 +170,24 @@ tokuten-aws
 * _開発チームは、スキーマ更新が実施された場合は、制作チームに共有をお願いします。_
 
 1. coupyリポジトリを最新版に更新
-``` sh
+```
 [local]$ cd /path/to/tokuten-aws/coupy
 [local]$ git checkout master
 [local]$ git pull origin master
 ```
 2. 仮想マシンにログイン
-``` sh
+```
 [local]$ vagrant ssh
 ```
 3. スキーマを適用
-``` sh
+```
 [vagrant]$ mysql -u root resource < /vagrant/coupy/doc/ddl/rdb.resource.ddl
 ```
 4. データを投入
-``` sh
+```
 [vagrant]$ mysql -u root resource < /vagrant/coupy/doc/dml/rdb.resource.dml
 ```
 5. スキーマキャッシュをクリア
-``` sh
+```
 [vagrant]$ sudo service httpd restart
 ```

@@ -176,18 +176,18 @@ tokuten-aws
 [local]$ git pull origin master
 ```
 2. 仮想マシンにログイン
-```
+``` sh
 [local]$ vagrant ssh
 ```
 3. スキーマを適用
-```
+``` sh
 [vagrant]$ mysql -u root resource < /vagrant/coupy/doc/ddl/rdb.resource.ddl
 ```
 4. データを投入
-```
+``` sh
 [vagrant]$ mysql -u root resource < /vagrant/coupy/doc/dml/rdb.resource.dml
 ```
 5. スキーマキャッシュをクリア
-```
+``` sh
 [vagrant]$ sudo service httpd restart
 ```

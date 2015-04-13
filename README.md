@@ -191,5 +191,3 @@ tokuten-aws
 ```
 [vagrant]$ sudo service httpd restart
 ```
-
-|abc|ABC|

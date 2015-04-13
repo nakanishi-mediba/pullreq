@@ -1,4 +1,5 @@
 # pullreq
 
-* [local]$ ``vagrant ssh``
+* [local]$
+  ``vagrant ssh``
 * [vagrant]$ ``exit``

@@ -170,7 +170,7 @@ tokuten-aws
 * _開発チームは、スキーマ更新が実施された場合は、制作チームに共有をお願いします。_
 
 1. coupyリポジトリを最新版に更新
-```
+``` sh
 [local]$ cd /path/to/tokuten-aws/coupy
 [local]$ git checkout master
 [local]$ git pull origin master

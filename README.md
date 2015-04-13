@@ -20,7 +20,7 @@ tokuten-aws
 * Vagrantをインストールする。（仮装マシンに開発環境を構築するもの）
     * <http://www.vagrantup.com/downloads.html>
 * HomeBrewをインストールする。（ソフトウェアの導入を単純化するもの）
-    * `` [local]$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ``
+    * [local]$ | `` ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ``
 * ターミナルで以下のコマンドを実行する。
     * `` [local]$ brew install git ``
 * rbenv導入
@@ -51,33 +51,33 @@ tokuten-aws
 ローカルの開発環境に仮装マシンを入れて、そこでソフトウェアを動かすようにします。  
 これにより、他の人の作業に影響を与えずに開発を行えるようになります。
 
-1. tokuten-awsをcloneする。（Git リポジトリのコピーを取得すること）  
-（/path/toは任意のフォルダを指しています。各々でパスを読み替えて下さい。）
-    * `` [local]$ mkdir -p */path/to* ``
-    * `` [local]$ cd /path/to ``
-    * `` [local]$ ssh-add ~/.ssh/id_rsa ``
-    * `` [local]$ git clone git@github.com:mediba-system/tokuten-aws.git ``
+1. tokuten-awsを任意のフォルダーにcloneする（Git リポジトリのコピーを取得すること）。[local]  
+（/path/toは任意のフォルダを指しています。各々でパスを決め、読み替えて下さい。）
+    * `` mkdir -p /path/to ``
+    * `` cd /path/to ``
+    * `` ssh-add ~/.ssh/id_rsa ``
+    * `` git clone git@github.com:mediba-system/tokuten-aws.git ``
 
-2. サブモジュールの初期化
-    * `` [local]$ cd /path/to/tokuten-aws ``
-    * `` [local]$ git submodule init ``
-    * `` [local]$ git submodule update ``
+2. サブモジュールの初期化[local]
+    * `` cd /path/to/tokuten-aws ``
+    * `` git submodule init ``
+    * `` git submodule update ``
 
-3. 各サブモジュールを最新の状態にする
-    * `` [local]$ cd /path/to/tokuten-aws/kittyhawk ``
-    * `` [local]$ git checkout master ``
-    * `` [local]$ cd /path/to/tokuten-aws/coupy ``
-    * `` [local]$ git checkout master ``
+3. 各サブモジュールを最新の状態にする[local]
+    * `` cd /path/to/tokuten-aws/kittyhawk ``
+    * `` git checkout master ``
+    * `` cd /path/to/tokuten-aws/coupy ``
+    * `` git checkout master ``
 
-4. vagrant-omnibusをインストール
-    * `` [local]$ vagrant plugin install vagrant-omnibus ``
+4. vagrant-omnibusをインストール[local]
+    * `` vagrant plugin install vagrant-omnibus ``
 
-5. vagrantを起動
-    * `` [local]$ cd /path/to/tokuten-aws/kittyhawk ``
-    * `` [local]$ vagrant up ``
+5. vagrantを起動[local]
+    * `` cd /path/to/tokuten-aws/kittyhawk ``
+    * `` vagrant up ``
 
-6. vagrant　プロビジョニング
-    * `` [local]$ vagrant provision ``
+6. vagrant　プロビジョニング[local]
+    * `` vagrant provision ``
 
 * MySQLインストールの際、エラーが出た場合はゲストOSで以下を実行した後、  
 ホストOSで再度プロビジョニング
@@ -86,8 +86,8 @@ tokuten-aws
     * `` [vagrant]$ source /etc/profile.d/rbenv.sh``
     * `` [vagrant]$ exit``
 
-7. ホストOSのhostsファイルを編集  
-    * `` [local]$ sudo vi /etc/hosts`` 
+7. ホストOSのhostsファイルを編集[local]  
+    * `` $ sudo vi /etc/hosts`` 
 
  >&#035; 0821資産  
  >20.0.0.11       local.tokuten.auone.jp  

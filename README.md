@@ -31,7 +31,7 @@ tokuten-aws
 
     * `` [local]$ brew install rbenv ruby-build ``
     * `` [local]$ eval "$(rbenv init -)"  ``
-    * `` [local]$ echo 'eval "$(rbenv init -)"' >> ~/.zshrc ``
+    * `` $ echo 'eval "$(rbenv init -)"' >> ~/.zshrc ``
 
     ** bashの場合は `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 
